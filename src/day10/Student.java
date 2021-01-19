@@ -1,25 +1,27 @@
 package day10;
 
-//Contructor overloading
+//Constructor overloading
 public class Student {
 
     String name;
     int roll;
 
     public Student() {
-        System.out.println("default contructor called");
+
+        System.out.println("default constructor called");
     }
 
     public Student(String n, int r) {
         name = n;
         roll = r;
-        System.out.println("arg contructor called");
+        System.out.println("arg constructor called");
     }
 
     public Student(String n) {
         name = n;
     }
-    public  Student(int r) {
+
+    public Student(int r) {
         roll = r;
     }
 
